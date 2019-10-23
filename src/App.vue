@@ -1,26 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-
-    <div id="particles-js" style="width:100%;border:black solid 2px;background:blue;height:30em">hi</div>
+    <div id="my-id"></div>
+    <VueParticleJs domId="my-id" :config="particleConfig" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import  "particles.js";
+import VueParticleJs from "./components/HelloWorld.vue";
 
 export default {
   name: "app",
   components: {
-    HelloWorld
+    VueParticleJs
   },
-
-  mounted() {
-    window.particlesJS(
-      "particles-js",
-      {
+  data: function() {
+    return {
+      // This is the configuration object for the particlejs
+      particleConfig: {
         particles: {
           number: {
             value: 80,
@@ -129,12 +125,8 @@ export default {
           }
         },
         retina_detect: true
-      },
-      function() {
-        // eslint-disable-next-line no-console
-        console.log("callback - particles.js config loaded");
       }
-    );
+    };
   }
 };
 </script>
@@ -147,6 +139,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#my-id {
+  width: 100%;
+  background: blue;
+  height: 50vh;
 }
 /* #particles-js {
   width: 100%;
