@@ -71,7 +71,7 @@ export default {
 
 ## Usage
 
-Once the **VueParticle** components is imported into your app globally or imported, it can be used in templates in the following manner:
+Once the **VueParticle** components is imported into your app globally or locally, it can be used in templates in the following manner:
 
 * Note
     
