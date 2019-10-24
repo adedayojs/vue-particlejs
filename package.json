@@ -1,6 +1,6 @@
 {
   "name": "vue-particlejs",
-  "version": "0.2.0",
+  "version": "1.1.0",
   "main": "src/main.js",
   "private": false,
   "scripts": {
@@ -44,6 +44,14 @@
     "plugins": {
       "autoprefixer": {}
     }
+  },
+  "repository": {
+    "url": "https://www.github.com/adedayojs/vue-particlejs"
+  },
+  "author": {
+    "name": "Adedayo Adedunye",
+    "url": "https://www.facebook.com/adedayojs",
+    "email": "samfeolu@gmail.com"
   },
   "browserslist": [
     "> 1%",

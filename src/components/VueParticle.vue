@@ -1,7 +1,3 @@
-<template>
-<div></div>
-</template>
-
 <script>
 import "particles.js";
 
