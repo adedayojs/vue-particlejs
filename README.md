@@ -7,14 +7,19 @@
 
 **Feel free to submit issues and feature requests [here](https://github.com/adedayojs/vue-particlejs/issues)**.
 
+
 **[Full documentation and examples](https://github.com/adedayojs/vue-particlejs/)**
 
 ## Table of Contents
+- [Live Demonstration](#demonstration)
 - [Installation](#installation)
 - [Importation](#importation)
 - [Usage](#usage)
 - [Development](#development)
 - [License](#license)
+
+##  Demonstration
+The live demonstration of the project in codesandbox can be viewed [Here](https://codesandbox.io/s/vue-template-v9i0r)
 
 ## Installation
 
