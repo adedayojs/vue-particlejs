@@ -78,7 +78,7 @@ Once the **VueParticle** components is imported into your app globally or import
 <template>
   <div id="app">
   <div id='particle'></div>
-    <VueParticle id='particle' :config=particleConfig/>
+    <VueParticle domId='particle' :config=particleConfig/>
     /* Place other components where you like*/
   </div>
 </template>
